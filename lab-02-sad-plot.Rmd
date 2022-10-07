@@ -97,8 +97,8 @@ Next team member should pull to download updates and continue from here.
 ```{r lineplot-3}
 staff_long %>%
   ggplot(aes(x = year, y = percentage_hired, color = faculty_type, group = faculty_type)) +
-  geom_line()
-  labs(title = "Faculty Hired Each Year ",x = "Year", y = "Percentage of total faculty hired")
+  geom_line() +
+  labs(title = "Faculty Hired Each Year ",x = "Year", y = "Percentage of total hires", colour = "Faculty Type")
 ```
 
 
