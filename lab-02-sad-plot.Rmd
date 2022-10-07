@@ -78,7 +78,10 @@ The data is not plotted in the graph
 *Remove this text 
 
 ```{r lineplot-2}
-# remove this comment and add your code here
+staff_long %>%
+  ggplot(aes(x = year, y = percentage_hired, color = faculty_type, group = faculty_type)) +
+  geom_line() 
+  
 ```
 
 
