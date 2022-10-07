@@ -25,7 +25,7 @@ Team member 1 should pull to download updates and begins here.
 
 ### Exercise 1
 
-*Remove this text and add your answer here. No code needed for this exercise!*
+Long data form of this data set will have 55 rows - one for each different observation. There are 11 different observations for each of the 5 faculty types.
 
 
 Team member 1 should knit, stage & commit, and push all changes to GitHub.
