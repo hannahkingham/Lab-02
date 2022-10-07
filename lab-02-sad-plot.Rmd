@@ -40,9 +40,9 @@ Team member 2 should pull to download updates and begins here.
  
 staff_long <- staff %>%
   pivot_longer(
-    cols = 2:11, 
+    cols = 2:12, 
     names_to = "year",
-   values_to = "faculty type"
+   values_to = "percentage_hired"
     )
 ```
 
