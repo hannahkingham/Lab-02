@@ -390,13 +390,12 @@ to GitHub.</p>
 </div>
 <div id="exercise-2" class="section level3">
 <h3>Exercise 2</h3>
-<pre class="r"><code># uncomment and edit the code below
-#staff_long &lt;- ___ %&gt;%
-#  ___(
-#    cols = ___, 
-#    names_to = &quot;___&quot;,
-#    values_to = &quot;___&quot;
-#    )</code></pre>
+<pre class="r"><code>staff_long &lt;- staff %&gt;%
+  pivot_longer(
+    cols = 2:11, 
+    names_to = &quot;year&quot;,
+   values_to = &quot;faculty type&quot;
+    )</code></pre>
 </div>
 <div id="exercise-3" class="section level3">
 <h3>Exercise 3</h3>
