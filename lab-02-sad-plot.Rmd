@@ -83,9 +83,7 @@ staff_long %>%
   geom_line() 
   
 ```
-
-
-Team member 3 should knit, stage & commit, and push all changes to GitHub.
+Part time faculty percentage is increasing while the full time tenure percentage is decreasing.
 
 --------
 
