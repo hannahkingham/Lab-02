@@ -76,7 +76,7 @@ staff_long %>%
 
 ### Exercise 5
 
-*Remove this text and add your answer here.*
+*Remove this text 
 
 ```{r lineplot-2}
 # remove this comment and add your code here
