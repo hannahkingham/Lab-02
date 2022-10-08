@@ -111,7 +111,7 @@ Next team member should pull to download updates and continue from here.
 
 ### Exercise 7
 
-*Remove this text and add your answer here. No code needed for this exercise!*
+To plot proportion we need to add a new variable column. This column needs to contain the percentage values but just divided by 100. To do this, we could use a mutate function which will add an extra column with the newly calculated variable.
 
 
 ### Exercise 8
